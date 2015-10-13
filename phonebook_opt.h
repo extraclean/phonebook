@@ -22,6 +22,7 @@ typedef struct __PERSONAL_DETAIL {
     char zip[5];
 } detail;
 
+
 entry *findName(char lastname[], entry *pHead);
 entry *append(char lastName[], entry *e);
 
